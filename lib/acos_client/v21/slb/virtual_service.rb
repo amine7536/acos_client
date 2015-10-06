@@ -26,7 +26,21 @@ class VirtualService < AcosClient::V21::BaseV21
     self._post(action, params: params, **opts)
   end
 
-
+  # @url /services/rest/v2.1/?format=json&method=#{action}&session_id=#{@client.session.id}
+  # @action POST
+  #
+  # Creates a Virtual Service
+  #
+  # @required [String] name
+  # @required [Integer] protocol
+  # @required [Integer] port
+  # @required [String] address
+  # @required [String] service_group
+  #
+  # @optional [Hash] opts
+  #
+  # @return [Hash] API Response
+  #
   def create(name, protocol, port, address, service_group, **opts)
     self._set('slb.virtual_service.create', name, protocol, port, address, service_group, **opts)
   end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    acos_client (0.2.0.pre.alpha)
+    acos_client (0.2.1.pre.alpha)
 
 GEM
   remote: https://rubygems.org/

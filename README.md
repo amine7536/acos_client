@@ -1,6 +1,9 @@
 # AcosClient
 [![Gem Version](https://badge.fury.io/rb/acos_client.svg)](http://badge.fury.io/rb/acos_client)
 
+AcosClient is a Ruby client to manage [A10Networks](https://www.a10networks.com) Load Balancer using A10's AxAPI (rest api).
+
+It's a port of from Python to Ruby of [A10Networks](https://www.a10networks.com) acos python client https://github.com/a10networks/acos-client
 
 ## Installation
 
